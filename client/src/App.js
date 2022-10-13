@@ -10,10 +10,10 @@ function App() {
   );
 }
 
-function callApi() {
-    fetch('https://mernshop2.herokuapp.com/', { method: 'GET' })
-        .then(data => data.json())
-        .then(json => alert(JSON.stringify(json)))
-}
+// function callApi() {
+//     fetch('https://mernshop2.herokuapp.com/', { method: 'GET' })
+//         .then(data => data.json())
+//         .then(json => alert(JSON.stringify(json)))
+// }
 
 export default App;
