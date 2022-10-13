@@ -26,10 +26,11 @@ db.once("open", function () {
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
-app.get('/details', async (req, res) => {
+app.get('/', async (req, res) => {
     // const user = await userModel.findOne({id: 123});
-    const user = await userModel.find({});
-    res.send(user);
+    // const user = await userModel.find({});
+    // res.send(user);
+    res.send("XD!")
 });
 
 app.listen(port, () => console.log(`Hello world app listening on port ${port}!`))
