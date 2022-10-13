@@ -4,7 +4,8 @@ function App() {
   return (
       <div className="App">
         <header className="App-header">
-          <button onClick={callApi}>Call API</button>
+          {/* <button onClick={callApi}>Call API</button> */}
+          <button>Call API</button>
         </header>
       </div>
   );
